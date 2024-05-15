@@ -1,0 +1,227 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 94, 0);
+}
+
+.jw-main-nav-container img {
+    width: 150px;
+    height: auto;
+}
+
+.jw-main-nav-container {
+    background-image: url('https://www.bing.com/images/blob?bcid=RO-WnqRVEvoGlWB1QpKckk0TGP00.....7M');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.black-background {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.second-image {
+    float: right;
+}
+
+.jw-main-nav-list {
+    padding-left: 0;
+}
+
+.jw-main-nav-list li {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.jw-main-nav-list li a {
+    text-decoration: none;
+    color: rgb(255, 94, 0);
+    padding: 5px 10px;
+    font-family: fantasy, sans-serif;
+    font-size: 22px;
+}
+
+.social-and-spam {
+    display: flex;
+    align-items: center;
+}
+
+.social-links {
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.social-image-link {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.social-image {
+    width: 90px;
+    height: auto;
+}
+
+.social-description {
+    text-decoration: none;
+    display: block;
+    color: rgb(255, 94, 0);
+    font-size: 18px;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#objetivos-container {
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+#objetivos {
+    color: rgb(255, 94, 0);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#articulos-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#articulos-container h1 {
+    color: rgb(255, 94, 0);
+    font-family: Arial Black, sans-serif;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.articulo {
+    text-align: center;
+    display: inline-block;
+}
+
+.articulo .imagen-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.articulo .imagen-item {
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+}
+
+.articulo .imagen-item img {
+    width: 100%;
+    height: auto;
+}
+
+.articulo h3 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: rgb(255, 94, 0);
+    background-color: #000000;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#quienes-somos {
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+#quienes-somos h1 {
+    color: rgb(255, 94, 0);
+}
+
+#junta-directiva {
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#junta-directiva h2 {
+    color: rgb(255, 94, 0);
+}
+
+#junta-directiva p {
+    color: rgb(255, 255, 255);
+}
+
+section {
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #FF5E00;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #FF5E00;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #FF7E30;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
